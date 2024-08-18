@@ -38,7 +38,7 @@ $ touch .env
 ```
 * Follow all steps here [click](https://support.google.com/accounts/answer/185833) and get 16-digit code
 ```text
-EMAIL_HOST = '' #our email from which you're going to send recommendations
+EMAIL_HOST = '' #your email from which you're going to send recommendations
 EMAIL_PASSWORD = '' your 16-digit code
 ```
 ---
