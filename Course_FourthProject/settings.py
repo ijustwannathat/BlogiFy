@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'taggit',
     'blog',
     'accounts',
+    'social_django',
+
 
 ]
 
@@ -50,6 +52,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+AUTHENTICATION_BACKENDS = [
+    'social_core.backends.github.GithubOAuth2',
+    'social_core.backends.google.GoogleOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+
 ]
 
 ROOT_URLCONF = 'Course_FourthProject.urls'
@@ -66,6 +74,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                #auth
+                'social_django.context_processors.backends',
+                "social_django.context_processors.login_redirect",
             ],
         },
     },
@@ -144,3 +155,7 @@ SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
 LOGIN_URL = '/accounts/login/'
 MEDIA_ROOT = BASE_DIR/'media'
 MEDIA_URL = '/media/'
+SOCIAL_AUTH_GITHUB_KEY = os.getenv('GITHUB_CLIENT_ID')
+SOCIAL_AUTH_GITHUB_SECRET = os.getenv('GITHUB_SECRET_KEY')
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY=os.getenv('GOOGLE_CLIENT_ID')
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.getenv('GOOGLE_SECRET_KEY')
