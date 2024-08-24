@@ -6,15 +6,13 @@
         <img src="{{ user.profile.avatar.url }}" style="cursor: pointer">
     </div>
     {% if user_form.errors %}
-        <div role="alert">
-            <div>
+        <div class="container d-flex align-items-center justify-content-center">
+            <div class="alert alert-warning alert-dismissible fade show w-50  d-block" role="alert">
                 {% for key, value in user_form.errors.items %}
                     <strong>{{ value }}</strong>
                 {% endfor %}
+                <button type="button" data-dismiss="alert" aria-label="Close" class="btn-close"></button>
             </div>
-            <button type="button" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times</span>
-            </button>
         </div>
     {% endif %}
     <div class="form-content">
@@ -43,13 +41,9 @@
                     <label>Post written</label>
                 </div>
             </div>
-            <br>
-            <br>
-            <button type="submit">Submit changes</button>
-            <button type="reset">Reset</button>
             <hr>
-            <br>
-            <label>You've written {% total_posts %} so far.</label>
+            <button type="submit" class="btn btn-primary btn-lg">Submit changes</button>
+            <button type="reset" class="btn btn-primary btn-lg">Reset</button>
         </form>
     </div>
 {% endblock %}

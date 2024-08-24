@@ -2,15 +2,17 @@
 {% block title %} Login {% endblock %}
 {% block content %}
     <h2> Login</h2>
-    <a href="{% url 'social:begin' 'github' %}">Log in with GitHub</a>
-    <br>
-    <a href="{% url 'social:begin' 'google-oauth2' %}">Log in with Google</a>
-    
+    <a href="{% url 'signup' %}" class="btn btn-link btn-lg active btn-block"> Signup</a>
+    <a href="{% url 'social:begin' 'github' %}" class="btn btn-link btn-lg active btn-block">Log in with GitHub</a>
+    <a href="{% url 'social:begin' 'google-oauth2' %}" class="btn btn-link btn-lg active btn-block">Log in with Google</a>
+
     <form method="post">
-        {{ form.as_p }}
+        {{ form.username }}
+        {{ form.password }}
+        <div class="mb-1">Remember me: {{ form.remember_me }}</div>
         {% csrf_token %}
-        <p><input type="submit" value="Login"></p>
-        <p><a href="{% url 'password_reset' %}">Reset Password</a></p>
+        <input type="submit" value="Login" class="btn btn-primary btn-lg">
     </form>
+    <a href="{% url 'password_reset' %}">Reset Password</a>
 
 {% endblock %}

@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'blog',
     'accounts',
     'social_django',
+    'django_bootstrap5',
 
 
 ]
