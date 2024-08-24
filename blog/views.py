@@ -5,7 +5,6 @@ from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from django.db.models import Count
 from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank, TrigramSimilarity
-from rapidfuzz.distance.OSA import similarity
 from taggit.models import Tag
 from blog.models import Post, Comment
 from blog.forms import EmailPostForm, CommentForm, SearchForm

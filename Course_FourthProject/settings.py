@@ -1,5 +1,7 @@
 from pathlib import Path
 import os
+
+from django.conf.global_settings import LOGOUT_REDIRECT_URL
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -36,6 +38,7 @@ INSTALLED_APPS = [
     #side libs
     'taggit',
     'blog',
+    'accounts',
 
 ]
 
@@ -135,3 +138,9 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = os.getenv('EMAIL_HOST')
 EMAIL_HOST_PASSWORD = os.getenv('EMAIL_PASSWORD')
+
+LOGIN_REDIRECT_URL = '/'
+SESSION_COOKIE_AGE = 60 * 60 * 24 * 30
+LOGIN_URL = '/accounts/login/'
+MEDIA_ROOT = BASE_DIR/'media'
+MEDIA_URL = '/media/'
