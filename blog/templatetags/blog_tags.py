@@ -2,7 +2,7 @@ from django import template
 from django.db.models import Count, Q
 from django.utils.safestring import mark_safe
 import markdown
-from ..models import Post
+from ..models import Post, Comment
 
 
 
@@ -32,3 +32,10 @@ def markdown_format(text):
     return mark_safe(markdown.markdown(text))
 
 
+@register.simple_tag
+def post_by_user(username):
+    return Post.objects.filter(author=username).count()
+
+@register.simple_tag
+def comments_by_user(email):
+    return Comment.objects.filter(email=email).count()

@@ -1,10 +1,10 @@
-# Part one. Setting db and dependencies
-## This website was influenced by the book.
+# This website was influenced by the book.
 * [Django 4 by Example](https://www.amazon.com/Django-Example-powerful-reliable-applications/dp/1801813051)
 ### I'm very thankful for material this books provides
 ## General material:
 This website introduces us to a basic logic django blog application with user authorisation and drf included.
-
+# Part one. Setting db and dependencies
+___
 ## Setting up
 ```
 $ python -m venv venv
@@ -24,7 +24,7 @@ $ python -Xutf8 manage.py loaddata mysite_data.json
 ```
 ### Quick note: Default password and login for admin panel from loaded data are
 * login: admin
-* password: kokfbc
+* password: admin
 
 #### In case those don't work i suggest that you create your own superuser via terminal
 ```
@@ -32,6 +32,7 @@ $ python manage.py createsuperuser
 ```
 ---
 # Part two. Setting variables(Optional)
+___
 * If you want to check how email recommendation works you need to create your own .env file
 ```
 $ touch .env

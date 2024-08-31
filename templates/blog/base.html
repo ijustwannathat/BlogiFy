@@ -69,7 +69,9 @@
             <div class="card mb-4">
                 {% if user.is_authenticated %}
                     <div class="card-header">This is my blog</div>
-                    <div class="card-body">Total post written {% total_posts %}. </div>
+                    <div class="card-body">Total post written {% post_by_user user.id %}. </div>
+                    <hr class="mt-1 mb-1">
+                    <div class="card-body">Comments written {% comments_by_user user.email %}.</div>
                 {% endif %}
             </div>
             <!-- Search widget-->

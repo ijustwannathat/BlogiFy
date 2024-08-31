@@ -1,4 +1,6 @@
 db.sqlite3
 .venv
 .env
+.scripts
 ##Y
+##password = adminauth

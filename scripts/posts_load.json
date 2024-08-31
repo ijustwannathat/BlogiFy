@@ -1,0 +1,186 @@
+[
+    {
+        "id": 28,
+        "author": 19,
+        "title": "Introduction to Python",
+        "body": "Python is a versatile and popular programming language known for its simplicity and readability. It\u2019s widely used in web development, data science, automation, and more.",
+        "created": "2024-08-26T10:00:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 29,
+        "author": 19,
+        "title": "Understanding JavaScript",
+        "body": "JavaScript is the language of the web, enabling dynamic content on websites. Understanding its core concepts, like closures and asynchronous programming, is crucial for modern web development.",
+        "created": "2024-08-26T10:10:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 30,
+        "author": 19,
+        "title": "Mastering Data Structures",
+        "body": "Data structures are fundamental to efficient programming. Mastering arrays, linked lists, stacks, and queues is essential for optimizing algorithms and solving complex problems.",
+        "created": "2024-08-26T10:20:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 31,
+        "author": 19,
+        "title": "Exploring Machine Learning",
+        "body": "Machine learning is transforming industries with predictive analytics and automation. Learn the basics of algorithms like decision trees, neural networks, and support vector machines.",
+        "created": "2024-08-26T10:30:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 32,
+        "author": 19,
+        "title": "Getting Started with Git",
+        "body": "Git is a version control system that tracks changes in your codebase. Understanding Git\u2019s commands and workflows is essential for collaboration in software development.",
+        "created": "2024-08-26T10:40:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 33,
+        "author": 19,
+        "title": "Building RESTful APIs",
+        "body": "RESTful APIs are the backbone of modern web applications. Learn how to design, build, and consume APIs using HTTP methods, status codes, and JSON.",
+        "created": "2024-08-26T10:50:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 34,
+        "author": 19,
+        "title": "The Power of Recursion",
+        "body": "Recursion is a programming technique where a function calls itself to solve smaller instances of a problem. It\u2019s powerful in solving complex problems like tree traversal and dynamic programming.",
+        "created": "2024-08-26T11:00:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 35,
+        "author": 19,
+        "title": "Understanding Big O Notation",
+        "body": "Big O Notation helps in analyzing the performance of algorithms. Understanding time and space complexity is key to writing efficient code.",
+        "created": "2024-08-26T11:10:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 36,
+        "author": 19,
+        "title": "Introduction to Functional Programming",
+        "body": "Functional programming emphasizes immutability and pure functions. It\u2019s a paradigm that helps in writing more predictable and testable code.",
+        "created": "2024-08-26T11:20:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 37,
+        "author": 19,
+        "title": "Asynchronous Programming in Python",
+        "body": "Asynchronous programming allows for non-blocking code execution, improving the performance of I/O-bound applications. Learn how to use `asyncio` and `await` in Python.",
+        "created": "2024-08-26T11:30:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 38,
+        "author": 19,
+        "title": "Introduction to Docker for Developers",
+        "body": "Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all parts it needs.",
+        "created": "2024-08-26T11:40:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 39,
+        "author": 19,
+        "title": "Exploring Kubernetes",
+        "body": "Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. It\u2019s a powerful tool for managing complex applications.",
+        "created": "2024-08-26T11:50:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 40,
+        "author": 19,
+        "title": "Understanding Microservices Architecture",
+        "body": "Microservices is an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities. It\u2019s a way to scale and develop complex systems.",
+        "created": "2024-08-26T12:00:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 41,
+        "author": 19,
+        "title": "Getting Started with TypeScript",
+        "body": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. It\u2019s increasingly popular for developing large-scale applications.",
+        "created": "2024-08-26T12:10:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 42,
+        "author": 19,
+        "title": "Implementing GraphQL APIs",
+        "body": "GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. It offers a more efficient, powerful, and flexible alternative to REST.",
+        "created": "2024-08-26T12:20:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 43,
+        "author": 19,
+        "title": "Mastering Regular Expressions",
+        "body": "Regular expressions (regex) are sequences of characters that define a search pattern. They are powerful tools for text processing, used in many programming languages and tools.",
+        "created": "2024-08-26T12:30:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 44,
+        "author": 19,
+        "title": "Building Real-Time Applications with WebSockets",
+        "body": "WebSockets provide a full-duplex communication channel over a single, long-lived connection. They\u2019re perfect for applications that require real-time updates, such as chat apps or live data feeds.",
+        "created": "2024-08-26T12:40:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 45,
+        "author": 19,
+        "title": "Introduction to Blockchain Technology",
+        "body": "Blockchain is a decentralized, distributed ledger that records the provenance of a digital asset. Originally designed for Bitcoin, blockchain technology has now evolved into a more extensive concept.",
+        "created": "2024-08-26T12:50:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 46,
+        "author": 19,
+        "title": "Scaling Applications with Load Balancers",
+        "body": "Load balancers distribute incoming network traffic across multiple servers, ensuring no single server becomes overwhelmed. This is crucial for scaling applications and ensuring high availability.",
+        "created": "2024-08-26T13:00:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 47,
+        "author": 19,
+        "title": "Exploring Serverless Architecture",
+        "body": "Serverless computing allows you to build and run applications and services without thinking about servers. This architecture automatically scales the applications in real-time as they gain usage.",
+        "created": "2024-08-26T13:10:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 48,
+        "author": 19,
+        "title": "Understanding REST API Security",
+        "body": "Security is crucial when designing REST APIs. Best practices include using HTTPS, token-based authentication, and ensuring proper input validation to prevent common vulnerabilities.",
+        "created": "2024-08-26T13:20:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 49,
+        "author": 19,
+        "title": "Getting Started with Continuous Integration",
+        "body": "Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently. Each integration is then verified by an automated build and tests.",
+        "created": "2024-08-26T13:30:00Z",
+        "status": "PB"
+    },
+    {
+        "id": 50,
+        "author": 19,
+        "title": "Mastering Cloud Computing",
+        "body": "Cloud computing provides on-demand computing services over the internet. Understanding different cloud service models (IaaS, PaaS, SaaS) and providers is key to leveraging the full potential of cloud technologies.",
+        "created": "2024-08-26T13:40:00Z",
+        "status": "PB"
+    }
+]
