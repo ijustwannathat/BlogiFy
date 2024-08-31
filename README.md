@@ -58,8 +58,8 @@ $ python manage.py runserver
 ```
 ___
 ## .env file structure 
-* Github authorisation can be done by [click](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github)
-* And following Google authorisation [CLick me!](https://medium.com/analytics-vidhya/adding-sign-in-with-google-to-your-website-b82755b79b31)
+* GitHub authorisation can be done by [click](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github)
+* And following Google authorisation [Click me!](https://medium.com/analytics-vidhya/adding-sign-in-with-google-to-your-website-b82755b79b31)
 
 ```python
 EMAIL_HOST = ''
